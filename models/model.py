@@ -1,6 +1,6 @@
-# Model regular numbers
 from pydantic import BaseModel
 
+# Model regular numbers
 class Number(BaseModel):
     id: int
     proximo: int
